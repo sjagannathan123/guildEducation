@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+              <span class="suite-name border-failed">Dog Shelter Food Estimator Service - Functional Test suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                    <span>C:\Users\sarit\eclipse-workspace\guidEducation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 5 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="hide-methods failed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite"> (hide)</a> <!-- hide-methods failed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite -->
+                      <a href="#" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="show-methods failed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite"> (show)</a> <!-- show-methods failed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.casesNotCoveredInACs" hash-for-method="last_month_remaining_is_more_than_needed">last_month_remaining_is_more_than_needed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.errorCases" hash-for-method="num_large_dogs_is_negative">num_large_dogs_is_negative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.errorCases" hash-for-method="num_last_month_remaining_is_negative">num_last_month_remaining_is_negative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.errorCases" hash-for-method="num_med_dogs_is_negative">num_med_dogs_is_negative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.errorCases" hash-for-method="num_small_dogs_is_negative">num_small_dogs_is_negative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="hide-methods passed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite"> (hide)</a> <!-- hide-methods passed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite -->
+                      <a href="#" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="show-methods passed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite"> (show)</a> <!-- show-methods passed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.edgeCases" hash-for-method="all_nums_zero">all_nums_zero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.positiveTestCases" hash-for-method="exampleCase">exampleCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.positiveTestCases" hash-for-method="last_month_remaining_as_decimal">last_month_remaining_as_decimal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.positiveTestCases" hash-for-method="last_month_remaining_is_zero">last_month_remaining_is_zero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.edgeCases" hash-for-method="num_large_dogs_is_max">num_large_dogs_is_max</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.edgeCases" hash-for-method="num_large_dogs_is_zero">num_large_dogs_is_zero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.edgeCases" hash-for-method="num_med_dogs_is_max">num_med_dogs_is_max</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.edgeCases" hash-for-method="num_med_dogs_is_zero">num_med_dogs_is_zero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.edgeCases" hash-for-method="num_small_dogs_is_max">num_small_dogs_is_max</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.edgeCases" hash-for-method="num_small_dogs_is_zero">num_small_dogs_is_zero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.errorCases" hash-for-method="number_of_large_dogs_exceeds_max">number_of_large_dogs_exceeds_max</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.errorCases" hash-for-method="number_of_med_dogs_exceeds_max">number_of_med_dogs_exceeds_max</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.errorCases" hash-for-method="number_of_small_dogs_exceeds_max">number_of_small_dogs_exceeds_max</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.positiveTestCases" hash-for-method="total_number_of_dogs_equal_to_30">total_number_of_dogs_equal_to_30</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" title="foodEstimatorServiceTests.errorCases" hash-for-method="total_number_of_dogs_exceeds_max">total_number_of_dogs_exceeds_max</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="panel Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+          <div class="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">foodEstimatorServiceTests.casesNotCoveredInACs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="last_month_remaining_is_more_than_needed">
+                  </a> <!-- last_month_remaining_is_more_than_needed -->
+                  <span class="method-name">last_month_remaining_is_more_than_needed</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.0] but found [-8.4]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEquals(Assert.java:701)
+	at org.testng.Assert.assertEquals(Assert.java:712)
+	at foodEstimatorServiceTests.casesNotCoveredInACs.last_month_remaining_is_more_than_needed(casesNotCoveredInACs.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-failed -->
+          <div class="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">foodEstimatorServiceTests.errorCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_large_dogs_is_negative">
+                  </a> <!-- num_large_dogs_is_negative -->
+                  <span class="method-name">num_large_dogs_is_negative</span>
+                  <div class="stack-trace">org.testng.TestException: 
+Method errorCases.num_large_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+	at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_last_month_remaining_is_negative">
+                  </a> <!-- num_last_month_remaining_is_negative -->
+                  <span class="method-name">num_last_month_remaining_is_negative</span>
+                  <div class="stack-trace">org.testng.TestException: 
+Method errorCases.num_last_month_remaining_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+	at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_med_dogs_is_negative">
+                  </a> <!-- num_med_dogs_is_negative -->
+                  <span class="method-name">num_med_dogs_is_negative</span>
+                  <div class="stack-trace">org.testng.TestException: 
+Method errorCases.num_med_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+	at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_small_dogs_is_negative">
+                  </a> <!-- num_small_dogs_is_negative -->
+                  <span class="method-name">num_small_dogs_is_negative</span>
+                  <div class="stack-trace">org.testng.TestException: 
+Method errorCases.num_small_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+	at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-failed -->
+          <div class="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">foodEstimatorServiceTests.positiveTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="exampleCase">
+                  </a> <!-- exampleCase -->
+                  <span class="method-name">exampleCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="last_month_remaining_as_decimal">
+                  </a> <!-- last_month_remaining_as_decimal -->
+                  <span class="method-name">last_month_remaining_as_decimal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="last_month_remaining_is_zero">
+                  </a> <!-- last_month_remaining_is_zero -->
+                  <span class="method-name">last_month_remaining_is_zero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="total_number_of_dogs_equal_to_30">
+                  </a> <!-- total_number_of_dogs_equal_to_30 -->
+                  <span class="method-name">total_number_of_dogs_equal_to_30</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-passed -->
+          <div class="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">foodEstimatorServiceTests.errorCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="number_of_large_dogs_exceeds_max">
+                  </a> <!-- number_of_large_dogs_exceeds_max -->
+                  <span class="method-name">number_of_large_dogs_exceeds_max</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="number_of_med_dogs_exceeds_max">
+                  </a> <!-- number_of_med_dogs_exceeds_max -->
+                  <span class="method-name">number_of_med_dogs_exceeds_max</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="number_of_small_dogs_exceeds_max">
+                  </a> <!-- number_of_small_dogs_exceeds_max -->
+                  <span class="method-name">number_of_small_dogs_exceeds_max</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="total_number_of_dogs_exceeds_max">
+                  </a> <!-- total_number_of_dogs_exceeds_max -->
+                  <span class="method-name">total_number_of_dogs_exceeds_max</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-passed -->
+          <div class="suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">foodEstimatorServiceTests.edgeCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="all_nums_zero">
+                  </a> <!-- all_nums_zero -->
+                  <span class="method-name">all_nums_zero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_large_dogs_is_max">
+                  </a> <!-- num_large_dogs_is_max -->
+                  <span class="method-name">num_large_dogs_is_max</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_large_dogs_is_zero">
+                  </a> <!-- num_large_dogs_is_zero -->
+                  <span class="method-name">num_large_dogs_is_zero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_med_dogs_is_max">
+                  </a> <!-- num_med_dogs_is_max -->
+                  <span class="method-name">num_med_dogs_is_max</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_med_dogs_is_zero">
+                  </a> <!-- num_med_dogs_is_zero -->
+                  <span class="method-name">num_med_dogs_is_zero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_small_dogs_is_max">
+                  </a> <!-- num_small_dogs_is_max -->
+                  <span class="method-name">num_small_dogs_is_max</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="num_small_dogs_is_zero">
+                  </a> <!-- num_small_dogs_is_zero -->
+                  <span class="method-name">num_small_dogs_is_zero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite-class-passed -->
+        </div> <!-- panel Dog_Shelter_Food_Estimator_Service___Functional_Test_suite -->
+        <div panel-name="test-xml-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sarit\eclipse-workspace\guidEducation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Dog Shelter Food Estimator Service - Functional Test suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Positive test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;foodEstimatorServiceTests.positiveTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Positive test Cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Edge test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;foodEstimatorServiceTests.edgeCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge test Cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Error test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;foodEstimatorServiceTests.errorCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Error test Cases --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Cases Not Covered in ACs&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;foodEstimatorServiceTests.casesNotCoveredInACs&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cases Not Covered in ACs --&gt;
+&lt;/suite&gt; &lt;!-- Dog Shelter Food Estimator Service - Functional Test suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Dog Shelter Food Estimator Service - Functional Test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Positive test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Error test Cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cases Not Covered in ACs (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Dog Shelter Food Estimator Service - Functional Test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Dog Shelter Food Estimator Service - Functional Test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Dog_Shelter_Food_Estimator_Service___Functional_Test_suite');
+function tableData_Dog_Shelter_Food_Estimator_Service___Functional_Test_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'exampleCase')
+data.setCell(0, 2, 'foodEstimatorServiceTests.positiveTestCases')
+data.setCell(0, 3, 6);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'last_month_remaining_as_decimal')
+data.setCell(1, 2, 'foodEstimatorServiceTests.positiveTestCases')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'total_number_of_dogs_equal_to_30')
+data.setCell(2, 2, 'foodEstimatorServiceTests.positiveTestCases')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'last_month_remaining_is_zero')
+data.setCell(3, 2, 'foodEstimatorServiceTests.positiveTestCases')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'num_small_dogs_is_zero')
+data.setCell(4, 2, 'foodEstimatorServiceTests.edgeCases')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'num_med_dogs_is_max')
+data.setCell(5, 2, 'foodEstimatorServiceTests.edgeCases')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'num_med_dogs_is_zero')
+data.setCell(6, 2, 'foodEstimatorServiceTests.edgeCases')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'all_nums_zero')
+data.setCell(7, 2, 'foodEstimatorServiceTests.edgeCases')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'num_large_dogs_is_zero')
+data.setCell(8, 2, 'foodEstimatorServiceTests.edgeCases')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'num_large_dogs_is_max')
+data.setCell(9, 2, 'foodEstimatorServiceTests.edgeCases')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'num_small_dogs_is_max')
+data.setCell(10, 2, 'foodEstimatorServiceTests.edgeCases')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'number_of_small_dogs_exceeds_max')
+data.setCell(11, 2, 'foodEstimatorServiceTests.errorCases')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'total_number_of_dogs_exceeds_max')
+data.setCell(12, 2, 'foodEstimatorServiceTests.errorCases')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'number_of_med_dogs_exceeds_max')
+data.setCell(13, 2, 'foodEstimatorServiceTests.errorCases')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'num_small_dogs_is_negative')
+data.setCell(14, 2, 'foodEstimatorServiceTests.errorCases')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'num_last_month_remaining_is_negative')
+data.setCell(15, 2, 'foodEstimatorServiceTests.errorCases')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'num_large_dogs_is_negative')
+data.setCell(16, 2, 'foodEstimatorServiceTests.errorCases')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'num_med_dogs_is_negative')
+data.setCell(17, 2, 'foodEstimatorServiceTests.errorCases')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'last_month_remaining_is_more_than_needed')
+data.setCell(18, 2, 'foodEstimatorServiceTests.casesNotCoveredInACs')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'number_of_large_dogs_exceeds_max')
+data.setCell(19, 2, 'foodEstimatorServiceTests.errorCases')
+data.setCell(19, 3, 0);
+window.suiteTableData['Dog_Shelter_Food_Estimator_Service___Functional_Test_suite']= { tableData: data, tableDiv: 'times-div-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 ms</span>
+              <div id="times-div-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite">
+              </div> <!-- times-div-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Dog Shelter Food Estimator Service - Functional Test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Dog_Shelter_Food_Estimator_Service___Functional_Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodEstimatorServiceTests.positiveTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">exampleCase</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">last_month_remaining_as_decimal</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">last_month_remaining_is_zero</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">total_number_of_dogs_equal_to_30</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodEstimatorServiceTests.edgeCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">all_nums_zero</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">num_large_dogs_is_max</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">num_large_dogs_is_zero</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">num_med_dogs_is_max</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">num_med_dogs_is_zero</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">num_small_dogs_is_max</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">num_small_dogs_is_zero</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodEstimatorServiceTests.errorCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">num_large_dogs_is_negative</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">num_last_month_remaining_is_negative</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">num_med_dogs_is_negative</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">num_small_dogs_is_negative</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">number_of_large_dogs_exceeds_max</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">number_of_med_dogs_exceeds_max</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">number_of_small_dogs_exceeds_max</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">total_number_of_dogs_exceeds_max</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodEstimatorServiceTests.casesNotCoveredInACs</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">last_month_remaining_is_more_than_needed</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- configuration-method before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

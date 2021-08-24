@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="20" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Dog Shelter Food Estimator Service - Functional Test suite" duration-ms="152" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+    <groups>
+    </groups>
+    <test name="Positive test Cases" duration-ms="46" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+      <class name="foodEstimatorServiceTests.positiveTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.positiveTestCases@6c49835d]" name="setUp" is-config="true" duration-ms="5" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="exampleCase()[pri:0, instance:foodEstimatorServiceTests.positiveTestCases@6c49835d]" name="exampleCase" duration-ms="6" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exampleCase -->
+        <test-method status="PASS" signature="last_month_remaining_as_decimal()[pri:0, instance:foodEstimatorServiceTests.positiveTestCases@6c49835d]" name="last_month_remaining_as_decimal" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last_month_remaining_as_decimal -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.positiveTestCases@6c49835d]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.positiveTestCases@6c49835d]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="last_month_remaining_is_zero()[pri:0, instance:foodEstimatorServiceTests.positiveTestCases@6c49835d]" name="last_month_remaining_is_zero" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last_month_remaining_is_zero -->
+        <test-method status="PASS" signature="total_number_of_dogs_equal_to_30()[pri:0, instance:foodEstimatorServiceTests.positiveTestCases@6c49835d]" name="total_number_of_dogs_equal_to_30" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- total_number_of_dogs_equal_to_30 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.positiveTestCases@6c49835d]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- foodEstimatorServiceTests.positiveTestCases -->
+    </test> <!-- Positive test Cases -->
+    <test name="Edge test Cases" duration-ms="16" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+      <class name="foodEstimatorServiceTests.edgeCases">
+        <test-method status="PASS" signature="all_nums_zero()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="all_nums_zero" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_nums_zero -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="num_large_dogs_is_max()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="num_large_dogs_is_max" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_large_dogs_is_max -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="num_large_dogs_is_zero()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="num_large_dogs_is_zero" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_large_dogs_is_zero -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="num_med_dogs_is_max()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="num_med_dogs_is_max" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_med_dogs_is_max -->
+        <test-method status="PASS" signature="num_med_dogs_is_zero()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="num_med_dogs_is_zero" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_med_dogs_is_zero -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="num_small_dogs_is_max()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="num_small_dogs_is_max" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_small_dogs_is_max -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="num_small_dogs_is_zero()[pri:0, instance:foodEstimatorServiceTests.edgeCases@307f6b8c]" name="num_small_dogs_is_zero" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_small_dogs_is_zero -->
+      </class> <!-- foodEstimatorServiceTests.edgeCases -->
+    </test> <!-- Edge test Cases -->
+    <test name="Error test Cases" duration-ms="24" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+      <class name="foodEstimatorServiceTests.errorCases">
+        <test-method status="FAIL" signature="num_large_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="num_large_dogs_is_negative" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method errorCases.num_large_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method errorCases.num_large_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_large_dogs_is_negative -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="setUp" is-config="true" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="num_last_month_remaining_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="num_last_month_remaining_is_negative" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method errorCases.num_last_month_remaining_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method errorCases.num_last_month_remaining_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_last_month_remaining_is_negative -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="num_med_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="num_med_dogs_is_negative" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method errorCases.num_med_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method errorCases.num_med_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_med_dogs_is_negative -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="num_small_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="num_small_dogs_is_negative" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method errorCases.num_small_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method errorCases.num_small_dogs_is_negative()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98] should have thrown an exception of type class java.lang.Exception
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- num_small_dogs_is_negative -->
+        <test-method status="PASS" signature="number_of_large_dogs_exceeds_max()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="number_of_large_dogs_exceeds_max" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- number_of_large_dogs_exceeds_max -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="setUp" is-config="true" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="number_of_med_dogs_exceeds_max()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="number_of_med_dogs_exceeds_max" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- number_of_med_dogs_exceeds_max -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="number_of_small_dogs_exceeds_max()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="number_of_small_dogs_exceeds_max" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- number_of_small_dogs_exceeds_max -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="total_number_of_dogs_exceeds_max()[pri:0, instance:foodEstimatorServiceTests.errorCases@42f93a98]" name="total_number_of_dogs_exceeds_max" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- total_number_of_dogs_exceeds_max -->
+      </class> <!-- foodEstimatorServiceTests.errorCases -->
+    </test> <!-- Error test Cases -->
+    <test name="Cases Not Covered in ACs" duration-ms="5" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+      <class name="foodEstimatorServiceTests.casesNotCoveredInACs">
+        <test-method status="FAIL" signature="last_month_remaining_is_more_than_needed()[pri:0, instance:foodEstimatorServiceTests.casesNotCoveredInACs@1a1d6a08]" name="last_month_remaining_is_more_than_needed" duration-ms="1" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [-8.4]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [-8.4]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEquals(Assert.java:701)
+at org.testng.Assert.assertEquals(Assert.java:712)
+at foodEstimatorServiceTests.casesNotCoveredInACs.last_month_remaining_is_more_than_needed(casesNotCoveredInACs.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last_month_remaining_is_more_than_needed -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:foodEstimatorServiceTests.casesNotCoveredInACs@1a1d6a08]" name="setUp" is-config="true" duration-ms="0" started-at="2021-08-24T13:17:38 MDT" finished-at="2021-08-24T13:17:38 MDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- foodEstimatorServiceTests.casesNotCoveredInACs -->
+    </test> <!-- Cases Not Covered in ACs -->
+  </suite> <!-- Dog Shelter Food Estimator Service - Functional Test suite -->
+</testng-results>
