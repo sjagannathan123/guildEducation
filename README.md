@@ -2,7 +2,7 @@
 Guild Education's take home project - **Dog shelter - Food Estimator Service**
 This document includes details of **dog shelter - food estimator service** test suite, how to run the unit tests written for foodEstimatorService, prerequisites for the environment and how to view the report. 
 
-**Test suite details: **
+**Test suite details:**
 
 Function Test suite for foodEstimatorService is created using TestNG and it has total of 17 test cases in 3 different test suites. 
 
@@ -22,7 +22,7 @@ last_month_remaining_is_zero with input parameters of 1 small dogs, 1 medium dog
 
 **Cases not Covered in the ACs** – To test the input condition where the leftover food supply from previous month is more than minimum needed. Currently the AC does not cover what should be the output of the function in this case.  
 
-**Pre-requisites: **
+**Pre-requisites:**
 
 Java version 1.8.0_291 must be downloaded and installed 
 
