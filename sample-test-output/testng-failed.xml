@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Dog Shelter Food Estimator Service - Functional Test suite]">
+  <test thread-count="5" name="Error test Cases(failed)">
+    <classes>
+      <class name="foodEstimatorServiceTests.errorCases">
+        <methods>
+          <include name="num_large_dogs_is_negative"/>
+          <include name="num_last_month_remaining_is_negative"/>
+          <include name="setUp"/>
+          <include name="num_med_dogs_is_negative"/>
+          <include name="num_small_dogs_is_negative"/>
+        </methods>
+      </class> <!-- foodEstimatorServiceTests.errorCases -->
+    </classes>
+  </test> <!-- Error test Cases(failed) -->
+  <test thread-count="5" name="Cases Not Covered in ACs(failed)">
+    <classes>
+      <class name="foodEstimatorServiceTests.casesNotCoveredInACs">
+        <methods>
+          <include name="last_month_remaining_is_more_than_needed"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- foodEstimatorServiceTests.casesNotCoveredInACs -->
+    </classes>
+  </test> <!-- Cases Not Covered in ACs(failed) -->
+</suite> <!-- Failed suite [Dog Shelter Food Estimator Service - Functional Test suite] -->

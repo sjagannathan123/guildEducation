@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dog Shelter Food Estimator Service - Functional Test suite">
+  <test name="Positive test Cases" verbose="2">
+    <classes>
+      <class name="foodEstimatorServiceTests.positiveTestCases"/>
+    </classes>
+  </test> 
+  <test name="Edge test Cases" verbose="2">
+    <classes>
+      <class name="foodEstimatorServiceTests.edgeCases"/>
+    </classes>
+  </test> 
+  <test name="Error test Cases" verbose="2">
+    <classes>
+      <class name="foodEstimatorServiceTests.errorCases"/>
+    </classes>
+  </test> 
+  <test name="Cases Not Covered in ACs" verbose="2">
+    <classes>
+      <class name="foodEstimatorServiceTests.casesNotCoveredInACs"/>
+    </classes>
+  </test> 
+</suite>
